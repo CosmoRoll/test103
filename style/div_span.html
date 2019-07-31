@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Web Page!</title>
+
+    <style>
+        #one{
+                font-size: 25px;
+                font-weight: 200;
+                font-family: serif;
+                padding:5px;
+                color:purple;
+                   }
+        #two{
+                font-size: 20px;
+                padding: 5px;
+                color:blue;
+        }
+        #three{
+                font-size:15px;
+                padding: 5px;
+                color:red;
+
+
+        }
+        .name{
+                color:green;
+                font-weight:300;
+        }
+    </style>
+</head>
+<body>
+    <div id = "one" class = "name">
+        this line had been given the number <span class="name">one</span>.
+
+    </div>
+    <div id= "two">
+        this line has been given the number <span class="name">two</span>.
+
+    </div>
+    <div id="three">
+        this line has been given the number <span class="name">three</span>.
+<!-- given id and class in the same tag, the browser will automatically give
+        more prefernce to the id. but if a class is defined inside using
+        another tag like a branch of a tree then the inner most branch is
+        given more prefernce. -->
+    </div>
+</body>
+</html>
